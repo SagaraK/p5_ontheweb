@@ -98,8 +98,8 @@ function buttonPressed(){
     icons[0].width = width;
     icons[0].height = height;
     console.log(icons[0].width);
-    width = width + 25;
-    height = height + 25;
+    width = width + 5;
+    height = height + 5;
     icons[0].resize(width,height);
     image(icons[0],random(windowWidth),random(windowHeight));
 
@@ -107,72 +107,72 @@ function buttonPressed(){
 function buttonPressed1(){
     icons[1].width = width;
     icons[1].height = height;
-    width = width + 10;
-    height = height + 10;
+    width = width + 5;
+    height = height + 5;
     icons[1].resize(width,height);
     image(icons[1],random(windowWidth),random(windowHeight));
 }
 function buttonPressed2(){
     icons[2].width = width;
     icons[2].height = height;
-    width = width + 10;
-    height = height + 10;
+    width = width + 5;
+    height = height + 5;
     icons[2].resize(width,height);
     image(icons[2],random(windowWidth),random(windowHeight));
 }
 function buttonPressed3(){
     icons[3].width = width;
     icons[3].height = height;
-    width = width + 10;
-    height = height + 10;
+    width = width + 5;
+    height = height + 5;
     icons[3].resize(width,height);
     image(icons[3],random(windowWidth),random(windowHeight));
 }
 function buttonPressed4(){
     icons[4].width = width;
     icons[4].height = height;
-    width = width + 10;
-    height = height + 10;
+    width = width + 5;
+    height = height + 5;
     icons[4].resize(width,height);
     image(icons[4],random(windowWidth),random(windowHeight));
   }
 function buttonPressed5(){
     icons[5].width = width;
     icons[5].height = height;
-    width = width + 10;
-    height = height + 10;
+    width = width + 5;
+    height = height + 5;
     icons[5].resize(width,height);
     image(icons[5],random(windowWidth),random(windowHeight));
 }
 function buttonPressed6(){
     icons[6].width = width;
     icons[6].height = height;
-    width = width + 10;
-    height = height + 10;
+    width = width + 5;
+    height = height + 5;
     icons[6].resize(width,height);
     image(icons[6],random(windowWidth),random(windowHeight));
 }
 function buttonPressed7(){
     icons[7].width = width;
     icons[7].height = height;
-    width = width + 10;
-    height = height + 10;
+    width = width + 5;
+    height = height + 5;
     icons[7].resize(width,height);
     image(icons[7],random(windowWidth),random(windowHeight));
   }
 function buttonPressed8(){
     icons[8].width = width;
     icons[8].height = height;
-    width = width + 10;
-    height = height + 10;
+    width = width + 5;
+    height = height + 5;
     icons[8].resize(width,height);
     image(icons[8],random(windowWidth),random(windowHeight));
 }
 function buttonPressed9(){
     icons[9].width = width;
     icons[9].height = height;
-    width = width + 10;
-    height = height + 10;
+    width = width + 5;
+    height = height + 5;
     icons[9].resize(width,height);
     image(icons[9],random(windowWidth),random(windowHeight));
 }
@@ -180,8 +180,8 @@ function buttonPressed9(){
 function buttonPressed10(){
     icons[10].width = width;
     icons[10].height = height;
-    width = width + 10;
-    height = height + 10;
+    width = width + 5;
+    height = height + 5;
     icons[10].resize(width,height);
     image(icons[10],random(windowWidth),random(windowHeight));
 }
