@@ -1,23 +1,19 @@
-let x; 
+let icons = [];
 
+function preload(){
+  for(let i = 0; i <= 10; i++){
+    icons[i] = loadImage(`images/icon_${i}.PNG`);
+
+  }
+}
 function  setup() {
-createCanvas(400,400); 
-background(0);
-x = 200;
+  createCanvas(windowWidth, windowHeight);
+  background(200);
+  console.log(icons);
+  for(let i = 0; i <= 10; i++){
+    image(icons[i], i*175 , i*75);
+  }
 }
 
 function draw() {
-background(0);
-drawEllipse(x);
-if(x < 400) {
-x++; 
-}
-else{
-x = 0; 
-}
-}
-
-function drawEllipse(_posX) {
-this.posX = _posX;
-ellipse(this.posX, 200, 100);
 }
