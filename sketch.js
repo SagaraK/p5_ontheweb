@@ -30,7 +30,7 @@ function  setup() {
   fill(255);
   console.log(icons);
   for(let i = 0; i <= 10; i++){
-    image(icons[i], PI*i*55 , sin(i)*150 + windowHeight/2.5);
+    image(icons[i], PI*i*57  , sin(i)*150 + windowHeight/2.5);
     //button = createButton('Click to increase');
   //button = createButton('Press to in'); //select('#icon_0') //(`#icon__${i}`);
   button0 = select('#icon_0');
