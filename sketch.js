@@ -16,7 +16,7 @@ let height = 100;
 
 function preload(){
   for(let i = 0; i <= 10; i++){
-    icons[i] = loadImage(`images/icon_${i}.PNG`);
+    icons[i] = loadImage(`images/icon_${i}.png`);
 
 
   }
