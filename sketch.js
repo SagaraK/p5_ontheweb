@@ -13,7 +13,6 @@ let button10;
 let button11;
 let width = 100;
 let height = 100;
-let val;
 
 function preload(){
   for(let i = 0; i <= 10; i++){
